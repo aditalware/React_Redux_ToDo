@@ -1,0 +1,129 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+/*Custom Styles*/
+
+.main-div{
+   
+      
+      justify-content: center;
+      background: linear-gradient(to right, #6600ff 0%, #cc33ff 100%);
+      padding: 10px 0px;
+      height: 100vh;
+}
+h1{
+  color:rgba(137, 59, 240, 0.7)
+}
+.wrapper {
+  margin:0 auto;
+  padding: 10px;
+  background-color: rgba(255,255,255,0.7);
+  text-align: center;
+  height: 200px;
+  width:550px;
+  border-radius: 10px;
+  margin-top: 20px;
+
+
+}
+
+input{
+  outline-color: #cc33ff ;
+}
+.div-wrapper {
+  margin-top: 50px;
+  padding: 5px 0;
+}
+.div-wrapper label {width: 60px;display: inline-block;}
+.div-wrapper > input, button {padding: 8px}
+.div-wrapper.qty > input {width: 40px;text-align: center;}
+.div-wrapper button {
+  background: transparent;
+  outline-color: #cc33ff ;
+    width: 38px;
+    cursor: pointer;
+    color: #ffffff;
+  
+  }
+.item-list {
+  padding: 10px;
+  list-style: none;
+  overflow-y: scroll;
+  height: 350px;
+}
+
+.item-list::-webkit-scrollbar {
+  display: none;
+}
+
+.item-list .item {
+  padding: 15px 10px;
+  margin: 0 auto;
+  margin-bottom: 15px;
+  border-radius: 2px;
+  border-bottom: 1px solid #eee;
+  box-shadow: 0 2px 4px 2px #ccc;
+  cursor: pointer;
+  width: 540px;
+  background-color: rgba(255,255,255,0.7);
+  display: flex;
+  font-size: 18px;
+  
+}
+
+
+.ReactModal__Content--after-open{
+  border: 1px solid rgb(204, 204, 204);
+    background: rgb(255, 255, 255);
+    overflow: auto;
+    border-radius: 4px;
+    outline: none;
+    padding: 20px;
+    width: 527px;
+    height: 113px;
+    margin: auto auto;
+    margin-top: 274px;
+}
+
+.modal-div{
+  margin: 0 auto;
+    margin-top: 44px;
+    text-align: center;
+}
+.modal-div > input{
+  width: 384px;
+  height: 31px;
+}
+.but{
+width:242px
+}
+
+.mod{
+    background: linear-gradient(to right, #6600ff 0%, #cc33ff 100%);
+    opacity: 0.7;
+    outline-color: #cc33ff ;
+    width: 50px;
+    cursor: pointer;
+    color: #ffffff;
+}
+.close{
+  color: rgb(102, 0, 255);
+  font-size: 20px;
+  position: absolute;
+  right: 13px;
+  top: 16px;
+  cursor: pointer;
+}
+
